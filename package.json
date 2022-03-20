@@ -1,0 +1,25 @@
+{
+  "name": "wechatpay-sdk-ts",
+  "version": "1.0.0",
+  "description": "微信支付sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install wechat-pay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lkk-Web/wechatPay-sdk-ts.git"
+  },
+  "author": "lkk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lkk-Web/wechatPay-sdk-ts/issues"
+  },
+  "homepage": "https://github.com/Lkk-Web/wechatPay-sdk-ts#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
