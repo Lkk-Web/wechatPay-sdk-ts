@@ -1,6 +1,6 @@
 export interface IPayCreateReq {
-    appid: string
-    mchid: string
+    appid: string  // 必传
+    mchid: string // 必传
     description: string
     out_trade_no: string
     time_expire?: string

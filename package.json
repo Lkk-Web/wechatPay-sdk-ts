@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Lkk-Web/wechatPay-sdk-ts#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

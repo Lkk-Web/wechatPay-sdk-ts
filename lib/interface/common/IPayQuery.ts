@@ -15,7 +15,7 @@ import { ITradeType } from "./IPayBase"
 // 特殊规则：最小字符长度为6
 // 示例值：1217752501201407033233368018
 
-export interface IPayQueryReq extends ITradeType{
+export interface IPayQueryReq extends ITradeType {
     mchid: string
     // // 这两个字段二选一，怎么设计呢？
     // transaction_id?: string
@@ -102,8 +102,8 @@ export interface IPayQueryRes {
             unit_price: number
             discount_amount: number
             goods_remark?: string
-        }
-    }
+        }[]
+    }[]
 }
 
 
